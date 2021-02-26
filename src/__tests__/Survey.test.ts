@@ -32,6 +32,5 @@ describe("Users", () => {
         const response = await request(app).get("/surveys");
 
         expect(response.body.length).toBe(2);
-    });
-    
+    });    
 });
